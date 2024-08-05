@@ -1,8 +1,8 @@
-my_list = [12, 10 ,11]
+my_list = [12, 3, 4, 10, 8]
 if len(my_list) > 0:
-    last_number = my_list[-1]
-    my_list.remove(last_number)
-    my_list.insert(0, last_number)
+
+    x = my_list.pop()
+    my_list.insert(0,x)
     print(my_list)
 else:
     print(my_list)
