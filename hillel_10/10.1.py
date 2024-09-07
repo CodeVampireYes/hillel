@@ -10,7 +10,7 @@ def some_gen(begin: int, n: int, func) -> list[int]:
         current = func(current)
 
 
-def pow(x):
+def pow(x: int) -> int:
     return x ** 2
 
 
